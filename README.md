@@ -3,6 +3,8 @@ new-hsl-wp
 
 Wordpress subtheme of twentyeleven for legacy WP content on new HSL redesign
 
+Must be installed along side the twentyeleven wordpress theme, and the new-hsl repo as it pulls all the resources from there.
+
 You'll want to take the new-hsl index.html and put the top half in header.php and the bottom half in footer.php. Header includes everything up until and including the span9 div where the main image would normally be kept, footer everything else.
 
 Sadly theres a few more changes to make. That span9 should probably be a span7 and you'll add in style includes in order to get the wordpress styles from style.css
