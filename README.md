@@ -8,3 +8,4 @@ You'll want to take the new-hsl index.html and put the top half in header.php an
 Sadly theres a few more changes to make. That span9 should probably be a span7 and you'll add in style includes in order to get the wordpress styles from style.css
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
+You can then zip the directory, go to http://www.heatsynclabs.org/wp-admin/themes.php, change the theme to something else, delete the old new-hsl-wp theme, upload the new copy, and activate it.
