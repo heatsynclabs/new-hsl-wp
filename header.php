@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="/new-hsl/css/hsl.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <!-- For Development, use line below and comment out line above -->
     <!-- <link href="/new-hsl/deps/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="/new-hsl/deps/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
