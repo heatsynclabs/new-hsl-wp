@@ -19,6 +19,9 @@ get_header(); ?>
     <?php if ( have_posts() ) : ?>
       <?php /* Start the Loop */ ?>
         <?php while ( have_posts() ) : the_post(); ?>
+          <header class="entry-header">
+            <h3><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+          </header>
           <?php get_template_part( 'content', get_post_format() ); ?>
         <?php endwhile; ?>
         <?php twentyeleven_content_nav( 'nav-below' ); ?>
